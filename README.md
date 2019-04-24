@@ -49,8 +49,12 @@ Technologies and Tools Used:
 2019-04-24:
 - Base folders Created
 - Readme Created and Updated
+- Inserted fonts and colors in variables
+- Setting Font: Monserrat as default font
+- Create Nav
+
 
 
 ## Contributors
-
+Lima Bean @ 2019
 Khanyiso Haman @ 2019

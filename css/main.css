@@ -1,3 +1,46 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(https://fonts.google.com/specimen/Montserrat); }
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.google.com/specimen/Roboto); }
+body {
+  font-family: Montserrat, Roboto; }
 
+header {
+  height: 100vh;
+  background: url(/images/headerBackground.jpg);
+  background-size: cover; }
+
+nav {
+  height: 100px; }
+  nav ul {
+    padding-top: 35px;
+    padding-left: 35vh; }
+  nav li {
+    list-style: none;
+    display: inline;
+    padding: 15px; }
+  nav a {
+    text-decoration: none;
+    color: #ffff; }
+  nav a:hover {
+    text-decoration: none; }
+
+.dreamshare-logo {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.5px; }
+
+.drm-logo {
+  padding-right: 30vh; }
+
+.sign-up {
+  border: 1px solid white;
+  padding: 7px 7px;
+  border-radius: 20px; }
+  .sign-up a {
+    padding: 10px 12px; }
 
 /*# sourceMappingURL=main.css.map */

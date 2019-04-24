@@ -1,0 +1,35 @@
+// My elements tags are styled here
+
+body {
+    font-family:  Montserrat, Roboto;
+}
+
+header {
+    height: 100vh;
+    background: url(/images/headerBackground.jpg);
+    background-size: cover;
+}
+
+nav {
+    height: 100px;
+
+    ul {
+        padding-top: 35px;
+        padding-left: 35vh;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
