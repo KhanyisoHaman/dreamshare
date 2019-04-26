@@ -1,0 +1,28 @@
+// Responsive Design
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+
+    nav {
+
+        ul {
+            padding-left: 5vh;
+        }
+    }
+
+    .dreamshare-logo {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 790px) and (min-width: 600px) {
+
+
+    nav {
+
+        ul {
+            padding-left: 7vh;
+        }
+    }
+
+}

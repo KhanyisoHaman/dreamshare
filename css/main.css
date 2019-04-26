@@ -16,7 +16,8 @@ nav {
   height: 100px; }
   nav ul {
     padding-top: 35px;
-    padding-left: 35vh; }
+    padding-left: 35vh;
+    display: inherit; }
   nav li {
     list-style: none;
     display: inline;
@@ -38,9 +39,47 @@ nav {
 
 .sign-up {
   border: 1px solid white;
-  padding: 7px 7px;
+  padding: 7px 20px;
   border-radius: 20px; }
   .sign-up a {
     padding: 10px 12px; }
+
+.hero {
+  width: 100%;
+  color: #ffff;
+  text-align: center;
+  padding-top: 8%; }
+  .hero h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px; }
+  .hero p {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 50px; }
+  .hero a {
+    color: #ffff;
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 1px; }
+  .hero a:hover {
+    text-decoration: none;
+    color: #ffff; }
+  .hero .hero-btn {
+    background-color: #FF4E50;
+    padding: 10px;
+    border-radius: 20px; }
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+  nav ul {
+    padding-left: 5vh; }
+
+  .dreamshare-logo {
+    margin-right: 0; } }
+@media (max-width: 790px) and (min-width: 600px) {
+  nav ul {
+    padding-left: 7vh; } }
 
 /*# sourceMappingURL=main.css.map */
