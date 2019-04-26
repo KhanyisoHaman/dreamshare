@@ -119,10 +119,25 @@
         position: absolute;
         border-radius: 50%;
         color: white;
+
+        border: 3px solid white;
+        transform: translate(-100%,240%);
     }
 
     .music {
         background-color: $pink;
+    }
+
+    .brush {
+        background-color: $sky-blue;
+    }
+
+    .camera {
+        background-color: $orange;
+    }
+
+    .plane {
+        background-color: $purple;
     }
     
 }

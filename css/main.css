@@ -118,9 +118,17 @@ hr {
     height: 35px;
     position: absolute;
     border-radius: 50%;
-    color: white; }
+    color: white;
+    border: 3px solid white;
+    transform: translate(-100%, 240%); }
   .partner .music {
     background-color: #FF4E50; }
+  .partner .brush {
+    background-color: #18D4CA; }
+  .partner .camera {
+    background-color: #FFA710; }
+  .partner .plane {
+    background-color: #667DF3; }
 
 .holiday-ideas {
   text-align: center;
