@@ -34,6 +34,9 @@ nav {
 main {
   margin: 10vh 20vh; }
 
+hr {
+  border-top: 2px solid #FF4E50; }
+
 .dreamshare-logo {
   font-family: Roboto;
   font-weight: bold;
@@ -110,6 +113,14 @@ main {
     width: 126px;
     height: 126px;
     border-radius: 50%; }
+  .partner .svg {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 50%;
+    color: white; }
+  .partner .music {
+    background-color: #FF4E50; }
 
 .holiday-ideas {
   text-align: center;
@@ -156,6 +167,30 @@ main {
     color: black;
     cursor: pointer; }
 
+.footer {
+  margin: 5vh 25vh; }
+  .footer .footer-item {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, fr); }
+  .footer h3 {
+    font-size: 15px; }
+  .footer .dreamshare-footer {
+    color: #FF4E50;
+    font-weight: bold;
+    font-family: Roboto;
+    text-transform: uppercase; }
+  .footer a {
+    color: #666666;
+    font-family: Montserrat;
+    font-size: 12px; }
+  .footer a:hover {
+    color: #666666; }
+  .footer .contact {
+    display: block; }
+  .footer .view {
+    color: #FF4E50; }
+
 .partner {
   display: grid;
   grid-gap: 10px;
@@ -165,6 +200,11 @@ main {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr); }
+
+.footer {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr); }
 
 @media (max-width: 1300px) and (min-width: 1000px) {
   nav ul {
@@ -190,6 +230,11 @@ main {
     grid-template-columns: repeat(2, 1fr);
     margin: 17px; }
     .holiday-ideas .idea-h1 {
+      grid-column: span 2; }
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr); }
+    .footer .dreamshare-foot {
       grid-column: span 2; } }
 
 /*# sourceMappingURL=main.css.map */

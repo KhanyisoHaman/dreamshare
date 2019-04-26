@@ -112,6 +112,18 @@
         height: 126px;
         border-radius: 50%;
     }
+
+    .svg {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .music {
+        background-color: $pink;
+    }
     
 }
 
@@ -183,3 +195,44 @@
 
 }
 
+// Footer
+
+.footer {
+    margin: 5vh 25vh;
+
+    .footer-item {
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .dreamshare-footer {
+        color: $pink;
+        font-weight: bold;
+        font-family: Roboto;
+        text-transform: uppercase;
+    }
+
+    a {
+        color: $grey;
+        font-family: Montserrat;
+        font-size: 12px;
+    }
+
+    a:hover {
+        color: $grey;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .view {
+        color: $pink;
+    }
+}

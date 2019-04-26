@@ -50,4 +50,12 @@
         }
     }
 
+    .footer {
+        grid-template-columns: repeat(2,1fr);
+
+        .dreamshare-foot {
+            grid-column: span 2;
+        }
+    }
+
 }
