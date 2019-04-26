@@ -1,5 +1,9 @@
 // My elements tags are styled here
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:  Montserrat, Roboto;
 }
@@ -33,4 +37,8 @@ nav {
     a:hover {
         text-decoration: none;
     }
+}
+
+main {
+    margin: 10vh 20vh;
 }
