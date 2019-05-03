@@ -22,6 +22,22 @@
     }
 }
 
+// Overlay Nav
+#toggle {
+    display: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #9d9999;
+    border-width: thin;
+    font-size: 20px;
+    color: #535252;
+}
+
+#toggleNav {
+    padding-top: 10px;
+}
+
 // Hero Text
 
 .hero {
@@ -122,6 +138,16 @@
 
         border: 3px solid white;
         transform: translate(-100%,240%);
+    }
+
+    .icon {
+        position: absolute;
+        color: white;
+        transform: translate(-165%, 575%);
+    }
+
+    .fa-plane {
+        transform: translate(-150%, 575%);
     }
 
     .music {

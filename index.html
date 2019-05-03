@@ -24,19 +24,19 @@
 
     <header>
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar">
             <ul>
                 <li class="drm-logo navbar-brand">
                     <a class="dreamshare-logo" href="">DREAMSHARE</a>
                 </li>
                 <!-- Toggle Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="toggle" onclick="toggleNavigation()">
+                    <span class="toggle-icon"><i class="fas fa-bars"></i></span>
                 </button>
 
                 <!-- Collapse Nav -->
-                <span  class="collapse navbar-collapse" id="navbarNav">
-                    <div class="navbar-nav">
+                <span  class="overlay-nav" id="toggleNav">
+                    <div class="nav-item">
                         <li>
                             <a href="">Activities</a>
                         </li>
@@ -84,6 +84,7 @@
             <article class="partner-item">
                 <img src="images/bradley.jpg" alt="Bradley Hunter">
                 <img class="svg music" src="" alt="">
+                <i class="fas icon fa-music"></i>
                 <h3>Bradley Hunter</h3>
                 <p>Based in Chicago. I love playing tennis and loud music</p>
             </article>
@@ -92,6 +93,7 @@
             <article class="partner-item">
                 <img src="images/Marie.jpg" alt="Marie Bennett">
                 <img class="svg brush" src="" alt="">
+                <i class="fas icon fa-paint-brush"></i>
                 <h3>Marie Bennett</h3>
                 <p>Currently living in Colorado. Lover of art, languages and traveling.</p>
             </article>
@@ -100,6 +102,7 @@
             <article class="partner-item">
                 <img src="images/Diana.jpg" alt="Diana Wells">
                 <img class="svg camera" src="" alt="">
+                <i class="fas icon fa-camera"></i>
                 <h3>Diana Wells</h3>
                 <p>Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
             </article>
@@ -108,6 +111,7 @@
             <article class="partner-item">
                 <img src="images/Christopher.jpg" alt="Christopher Pierce">
                 <img class="svg plane" src="" alt="">
+                <i class="fas icon fa-plane"></i>
                 <h3>Christopher Pierce</h3>
                 <p>Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
             </article>

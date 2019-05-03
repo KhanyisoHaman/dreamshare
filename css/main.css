@@ -53,6 +53,19 @@ hr {
   .sign-up a {
     padding: 10px 12px; }
 
+#toggle {
+  display: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #9d9999;
+  border-width: thin;
+  font-size: 20px;
+  color: #535252; }
+
+#toggleNav {
+  padding-top: 10px; }
+
 .hero {
   width: 100%;
   color: #ffff;
@@ -121,6 +134,12 @@ hr {
     color: white;
     border: 3px solid white;
     transform: translate(-100%, 240%); }
+  .partner .icon {
+    position: absolute;
+    color: white;
+    transform: translate(-165%, 575%); }
+  .partner .fa-plane {
+    transform: translate(-150%, 575%); }
   .partner .music {
     background-color: #FF4E50; }
   .partner .brush {
@@ -221,9 +240,44 @@ hr {
 
   .dreamshare-logo {
     margin-right: 0; } }
-@media (max-width: 790px) and (min-width: 600px) {
+@media (max-width: 790px) {
   nav ul {
     padding-left: 7vh; }
+
+  #toggle {
+    display: inherit; }
+
+  #toggle.show {
+    z-index: 3; }
+
+  #toggleNav {
+    display: none; }
+
+  #toggleNav.active {
+    display: inherit; }
+
+  .drm-logo {
+    padding-right: 75vh; }
+
+  .overlay-nav {
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    background-color: #f39f00eb;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 0; }
+    .overlay-nav li {
+      display: block; }
+    .overlay-nav .nav-item {
+      font-size: 25px;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 50px;
+      font-family: Roboto;
+      width: 100%;
+      transition: all .5s ease-in; }
 
   main {
     margin: 10vh 10vh; }
@@ -245,5 +299,45 @@ hr {
     grid-template-columns: repeat(2, 1fr); }
     .footer .dreamshare-foot {
       grid-column: span 2; } }
+@media (max-width: 580px) {
+  nav ul {
+    padding-left: 3vh; }
+  nav .drm-logo {
+    padding-right: 2vh; }
+
+  .hero {
+    padding-top: 35%; }
+    .hero h1 {
+      font-size: 35px; }
+    .hero p {
+      font-size: 18px; }
+
+  main {
+    margin: 10vh 10px; }
+
+  .partner {
+    grid-template-columns: repeat(1, 1fr); }
+    .partner a {
+      font-size: 15px; }
+    .partner .partner-link {
+      grid-column: span 1; }
+    .partner .partner-h1 {
+      grid-column: span 1; }
+
+  .holiday-ideas {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px; }
+    .holiday-ideas .idea-h1 {
+      grid-column: span 1; }
+    .holiday-ideas .culture, .holiday-ideas .beauty {
+      width: 300px;
+      height: 310px;
+      grid-column: span 1; }
+
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5vh 2vh; }
+    .footer .dreamshare-foot {
+      grid-column: span 1; } }
 
 /*# sourceMappingURL=main.css.map */
